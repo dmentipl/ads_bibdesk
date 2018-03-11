@@ -645,7 +645,7 @@ def get_redirect(url):
                                          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'})
     else:
         response = requests.get(url)
-    response.raise_for_status()
+    # response.raise_for_status()
     return response.url
     #try:
     #    out = urllib2.urlopen(url)
