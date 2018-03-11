@@ -1,9 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>346</string>
+	<string>444.4</string>
 	<key>AMApplicationVersion</key>
-	<string>2.3</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -16,7 +18,7 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
-					<true />
+					<true/>
 					<key>Types</key>
 					<array>
 						<string>com.apple.cocoa.string</string>
@@ -31,15 +33,15 @@
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<dict />
+					<dict/>
 					<key>CheckedForUserDefaultShell</key>
-					<dict />
+					<dict/>
 					<key>inputMethod</key>
-					<dict />
+					<dict/>
 					<key>shell</key>
-					<dict />
+					<dict/>
 					<key>source</key>
-					<dict />
+					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -59,25 +61,24 @@
 					<key>COMMAND_STRING</key>
 					<string>#!/bin/zsh
 source ~/.zshrc
-adsbibdesk $@
-</string>
+adsbibdesk $@</string>
 					<key>CheckedForUserDefaultShell</key>
-					<true />
+					<true/>
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
 					<string>/bin/zsh</string>
 					<key>source</key>
-					<string />
+					<string></string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.RunShellScript</string>
 				<key>CFBundleVersion</key>
 				<string>2.0.3</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false />
+				<false/>
 				<key>CanShowWhenRun</key>
-				<true />
+				<true/>
 				<key>Category</key>
 				<array>
 					<string>AMCategoryUtilities</string>
@@ -120,7 +121,7 @@ adsbibdesk $@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string />
+						<string></string>
 						<key>name</key>
 						<string>source</string>
 						<key>required</key>
@@ -133,7 +134,7 @@ adsbibdesk $@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<false />
+						<false/>
 						<key>name</key>
 						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
@@ -146,7 +147,7 @@ adsbibdesk $@
 					<key>3</key>
 					<dict>
 						<key>default value</key>
-						<string />
+						<string></string>
 						<key>name</key>
 						<string>COMMAND_STRING</string>
 						<key>required</key>
@@ -171,18 +172,18 @@ adsbibdesk $@
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true />
+				<true/>
 				<key>location</key>
-				<string>309.500000:671.000000</string>
+				<string>309.000000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true />
+			<true/>
 		</dict>
 	</array>
 	<key>connectors</key>
-	<dict />
+	<dict/>
 	<key>state</key>
 	<dict>
 		<key>AMLogTabViewSelectedIndex</key>
